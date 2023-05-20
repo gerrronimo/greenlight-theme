@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --accent-color: #ff0000;
+    --dark-bg: #181818;
+    --light-bg: #ff0000;
+}
+
+.mac, .windows, .linux {
+    font-family: 'Inter', sans-serif !important;
+    letter-spacing: 0.5px;
+    background-color: transparent !important;
+}
+
+/* TABS */
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container {
+    padding: 8px 0;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab {
+    border-radius: 4px;
+    margin-right: 8px;
+    padding: 0 16px;
+    font-weight: 500;
+}
+
+/* EDITOR */
+.editor-container {
+    padding-top: 12px;
+    background-color: var(--dark-bg) !important;
+    border-radius: 12px;
+}
+
+.monaco-editor.no-user-select .lines-content,
+.monaco-editor.no-user-select .view-line,
+.monaco-editor.no-user-select .view-lines,
+.monaco-editor .margin {
+    background-color: transparent;
+}
+
+.tabs-breadcrumbs {
+    margin-bottom: 8px;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+/* SCROLLBAR */
+.monaco-scrollable-element > .scrollbar > .slider {
+    border-radius: 8px;
+    width: 5px !important;
+    right: 0;
+    left: unset !important;
+}
+
+/* EXPERIMENTAL */

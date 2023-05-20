@@ -1,0 +1,36 @@
+{
+	"name": "GreenLight Theme",
+	"colors": {
+		// SIDEBAR
+		"sideBar.background": "#131313",
+		"sideBarSectionHeader.background": "#00000000",
+		"tree.indentGuidesStroke": "#00000000",
+
+		// TABS
+		"editorGroupHeader.tabsBackground": "#131313",
+		"tab.activeBackground": "#262626",
+		"tab.activeForeground": "#FFFFFF",
+		"tab.inactiveBackground": "#00000000",
+		"tab.inactiveForeground": "#A8A8A8",
+		"tab.border": "#00000000",
+		"breadcrumb.background": "#00000000",
+
+		// EDITOR
+		"editor.background": "#131313",
+		"scrollbar.shadow": "#00000000",
+		"editorGroup.border": "#00000000",
+
+		// TITLEBAR
+		"titleBar.activeBackground": "#131313",
+		"titleBar.activeForeground": "#FFFFFF",
+		"titleBar.inactiveBackground": "#131313",
+
+		// ACTIVITYBAR
+		"activityBar.background": "#131313",
+
+		// STATUSBAR
+		"statusBar.background": "#131313",
+		"panelSection.border": "#ff0000"
+	},
+	"tokenColors": []
+}
