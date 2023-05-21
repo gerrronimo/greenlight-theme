@@ -75,15 +75,6 @@
     border-radius: 12px;
 }
 
-.split-view-view .panel {
-    height: calc(100% - 6px);
-}
-
-.xterm-decoration-container {
-    position: absolute;
-    top: 16px;
-}
-
 /* SIDEBAR */
 .monaco-list-row {
     border-radius: 4px 0 0 4px;
@@ -94,6 +85,4 @@
 }
 
 /* EXPERIMENTAL */
-.xterm-screen canvas {
-    height: calc(100% - 12px) !important;
-}
+
