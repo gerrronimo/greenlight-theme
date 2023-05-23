@@ -37,7 +37,9 @@
 
 		// STATUSBAR
 		"statusBar.background": "#131313",
-		"panelSection.border": "#ff0000",
+		"statusBar.foreground": "#A8A8A8",
+		"panelSection.border": "#00000000",
+		"statusBarItem.activeBackground": "#00000000",
 
 		// TERMINAL
 		"panel.background": "#181818",

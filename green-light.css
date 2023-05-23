@@ -29,7 +29,7 @@
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
-    border-radius: 4px;
+    border-radius: 6px;
     margin-right: 8px;
     padding: 0 12px;
     font-weight: 500;
@@ -40,14 +40,8 @@
     padding-top: 12px;
     background-color: var(--dark-bg) !important;
     border-radius: 12px;
-    width: calc(100% - 12px);
-    height: calc(100% - 83px) !important;
-}
-
-.tabs-breadcrumbs {
-    margin-bottom: 8px;
-    font-weight: 100;
-    font-size: 12px;
+    height: calc(100% - 75px) !important;
+    margin-right: 12px;
 }
 
 .monaco-split-view2 > .monaco-scrollable-element > .split-view-container {
@@ -56,6 +50,13 @@
 
 .monaco-editor .overflow-guard {
     height: calc(100% - 65px) !important;
+    width: calc(100% - 24px) !important;
+}
+
+/* BREADCRUMB */
+.tabs-breadcrumbs {
+    font-weight: 100;
+    font-size: 12px;
 }
 
 /* SCROLLBAR */
@@ -64,10 +65,11 @@
     width: 5px !important;
     right: 2px;
     left: unset !important;
+    opacity: .25;
 }
 
 .monaco-editor .monaco-scrollable-element > .scrollbar > .slider {
-    right: 14px;
+    right: 28px;
 }
 
 /* TERMINAL */
@@ -76,12 +78,12 @@
 }
 
 /* SIDEBAR */
-.monaco-list-row {
+.sidebar .monaco-list-row {
     border-radius: 4px 0 0 4px;
 }
 
 .sidebar .monaco-split-view2 .monaco-scrollable-element .split-view-container .split-view-view {
-    width: 100% !important;
+    width: calc(100% + 6px) !important;
 }
 
 /* EXPERIMENTAL */
