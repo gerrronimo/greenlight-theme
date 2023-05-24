@@ -16,8 +16,15 @@
       {
         "label": "GreenLight Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/green-light-color-theme.json"
+        "path": "./themes/dark.json"
       }
+    ],
+    "iconThemes": [
+			{
+				"id": "greenlight-icons",
+				"label": "GreenLight Icons",
+				"path": "./icons/icons.json"
+			}
     ]
   },
   "devDependencies": {
