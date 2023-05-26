@@ -1,0 +1,9 @@
+/* settings-editor */
+
+.settings-editor {
+    background-color: #181818 !important;
+}
+
+.settings-editor .monaco-list-rows {
+    background: none !important;
+}

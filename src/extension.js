@@ -11,7 +11,7 @@ const activate = () => {
 		? "\\" + electronBase + "\\workbench\\workbench.html"
 		: "/" + electronBase + "/workbench/workbench.html");
 	const html = fs.readFileSync(htmlPath, "utf-8");
-	const code = `<!-- GREENLIGHT --><link href="${__dirname + '/styles/green-light.css'}" rel="stylesheet">`;
+	const code = `<!-- GREENLIGHT --><link href="${__dirname + '/green-light.css'}" rel="stylesheet">`;
 
 	if (!html.includes(code)) {
 		fs.writeFileSync(htmlPath, html.replace(/\<\/html\>/g, `${code}\n`) + '</html>', "utf-8");
@@ -26,8 +26,6 @@ const activate = () => {
 		} else {
 			fs.writeFileSync(htmlPath, html.replace(`<!-- restarted -->\n`, ''), "utf-8");
 		}
-
-		return;
 	}
 }
 
@@ -40,7 +38,7 @@ const deactivate = () => {
 		? "\\" + electronBase + "\\workbench\\workbench.html"
 		: "/" + electronBase + "/workbench/workbench.html";
 	const html = fs.readFileSync(htmlPath, "utf-8");
-	const code = `<!-- GREENLIGHT --><link href="${__dirname + '/styles/green-light.css'}" rel="stylesheet">`;
+	const code = `<!-- GREENLIGHT --><link href="${__dirname + '/green-light.css'}" rel="stylesheet">`;
 
 	if (html.includes(code)) {
 		fs.writeFileSync(htmlPath, html.replace(code, ''), "utf-8");

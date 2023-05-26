@@ -11,6 +11,10 @@
 }
 
 .monaco-editor .overflow-guard {
-    height: calc(100% - 65px) !important;
+    height: calc(100% - 60px) !important;
     width: calc(100% - 24px) !important;
+}
+
+.monaco-split-view2.vertical > .monaco-scrollable-element > .split-view-container > .split-view-view {
+    width: calc(100% - 12px) !important;
 }
