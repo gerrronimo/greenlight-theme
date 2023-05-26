@@ -1,0 +1,11 @@
+.monaco-scrollable-element > .scrollbar > .slider {
+    border-radius: 8px;
+    width: 5px !important;
+    right: 2px;
+    left: unset !important;
+    opacity: .25;
+}
+
+.monaco-editor .monaco-scrollable-element > .scrollbar > .slider {
+    right: 28px;
+}

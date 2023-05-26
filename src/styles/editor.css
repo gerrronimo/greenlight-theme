@@ -1,0 +1,16 @@
+.editor-container {
+    padding-top: 12px;
+    background-color: #181818 !important;
+    border-radius: 12px;
+    height: calc(100% - 75px) !important;
+    margin-right: 12px;
+}
+
+.monaco-split-view2 > .monaco-scrollable-element > .split-view-container {
+    border-radius: 12px;
+}
+
+.monaco-editor .overflow-guard {
+    height: calc(100% - 65px) !important;
+    width: calc(100% - 24px) !important;
+}

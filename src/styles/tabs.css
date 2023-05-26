@@ -1,0 +1,10 @@
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container {
+    padding: 8px 0;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
+    border-radius: 6px;
+    margin-right: 8px;
+    padding: 0 12px;
+    font-weight: 500;
+}

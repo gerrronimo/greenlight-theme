@@ -10,7 +10,7 @@
     "Themes"
   ],
   "activationEvents": [ "onStartupFinished" ],
-  "main": "./extension.js",
+  "main": "./src/extension.js",
   "contributes": {
     "themes": [
       {

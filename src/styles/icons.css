@@ -1,0 +1,7 @@
+.selected .file-icon::before {
+    background-image: url('../../icons/file_selected.svg') !important;
+}
+
+.selected .folder-icon::before {
+    background-image: url('./icons/folder_selected.svg') !important;
+}

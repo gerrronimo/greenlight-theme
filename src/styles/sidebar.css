@@ -1,0 +1,7 @@
+.sidebar .monaco-list-row {
+    border-radius: 4px 0 0 4px;
+}
+
+.sidebar .monaco-split-view2 .monaco-scrollable-element .split-view-container .split-view-view {
+    width: calc(100% + 6px) !important;
+}
