@@ -1,8 +1,8 @@
 {
 	"hidesExplorerArrows": false,
 	"iconDefinitions": {
-        "_folder": { "iconPath": "./folder.svg" },
-        "_file": { "iconPath": "./file.svg" }
+        "_folder": { "iconPath": "./folder/folder.svg" },
+        "_file": { "iconPath": "./file/file.svg" }
     },
     "folder": "_folder",
     "file": "_file"

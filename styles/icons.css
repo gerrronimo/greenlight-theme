@@ -1,13 +1,17 @@
 /* sidebar */
 .selected .file-icon::before {
-    background-image: url('./../icons/file_selected.svg') !important;
+    background-image: url('./../icons/file/file_selected.svg') !important;
 }
 
 .selected .folder-icon::before {
-    background-image: url('./../icons/folder_selected.svg') !important;
+    background-image: url('./../icons/folder/folder_selected.svg') !important;
 }
 
 /* tabs */
+div[aria-selected=true] .monaco-icon-label[title="Settings"]::before {
+    background-image: url('./../icons/settings/settings_selected.svg') !important;
+}
+
 .monaco-icon-label[title="Settings"]::before {
-    background-image: url('./../icons/settings.svg') !important;
+    background-image: url('./../icons/settings/settings.svg') !important;
 }

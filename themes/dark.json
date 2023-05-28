@@ -1,6 +1,7 @@
 {
 	"name": "GreenLight Theme",
 	"colors": {
+		"focusBorder": "#00000000",
 		"sideBar.background": "#131313",
 		"sideBarSectionHeader.background": "#00000000",
 		"list.activeSelectionBackground": "#b1fc31d8",
@@ -36,7 +37,9 @@
 		"statusBarItem.activeBackground": "#00000000",
 
 		"panel.background": "#181818",
-		"panel.border": "#00000000"
+		"panel.border": "#00000000",
+
+		"gitDecoration.modifiedResourceForeground": "#b893ceee"
 	},
 	"tokenColors": [
 		{

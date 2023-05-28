@@ -21,6 +21,10 @@
     letter-spacing: 0.5px;
 }
 
+div[aria-label="Your Code installation appears to be corrupt. Please reinstall., notification"] {
+    display: none;
+}
+
 /* BREADCRUMB */
 .tabs-breadcrumbs {
     font-weight: 100;
@@ -31,3 +35,9 @@
 .monaco-workbench .part {
     border-radius: 12px;
 }
+
+/* EXPERIMENTAL */
+
+/* .monaco-workbench .part.editor > .content .editor-group-container.active > .title .tabs-container > .tab:hover . {
+
+} */
