@@ -6,5 +6,8 @@
     border-radius: 6px;
     margin-right: 8px;
     padding: 0 12px;
-    font-weight: 500;
+}
+
+.tabs-container > .tab .label-name {
+    font-weight: 400 !important;
 }

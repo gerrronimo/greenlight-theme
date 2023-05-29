@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('../fonts/stylesheet.css');
 
 @import url('../styles/editor.css');
 @import url('../styles/settings.css');
@@ -7,6 +7,10 @@
 @import url('../styles/sidebar.css');
 @import url('../styles/tabs.css');
 @import url('../styles/icons.css');
+
+* {
+    font-smooth: always;
+}
 
 .monaco-editor.no-user-select .lines-content,
 .monaco-editor.no-user-select .view-line,
@@ -18,7 +22,6 @@
 
 .mac, .windows, .linux {
     font-family: 'Inter', sans-serif !important;
-    letter-spacing: 0.5px;
 }
 
 div[aria-label="Your Code installation appears to be corrupt. Please reinstall., notification"] {
@@ -38,6 +41,15 @@ div[aria-label="Your Code installation appears to be corrupt. Please reinstall.,
 
 /* EXPERIMENTAL */
 
-/* .monaco-workbench .part.editor > .content .editor-group-container.active > .title .tabs-container > .tab:hover . {
+@font-face {
+    font-family: 'greenlight-icons';
+    src: url('../greenlight-icons.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
 
-} */
+/* greenlight-icons */
+
+.codicon[class*=codicon-] {
+    font: normal normal normal 16px/1 greenlight-icons !important;
+}
