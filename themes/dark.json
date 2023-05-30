@@ -39,7 +39,14 @@
 		"panel.background": "#181818",
 		"panel.border": "#00000000",
 
-		"gitDecoration.modifiedResourceForeground": "#b893ceee"
+		"gitDecoration.modifiedResourceForeground": "#b893ceee",
+
+		"commandCenter.border": "#00000000",
+		"commandCenter.background": "#282828",
+		"commandCenter.inactiveBorder": "#00000000",
+		"commandCenter.activeBorder": "#00000000",
+
+		"sash.hoverBorder": "#b1fc31d8"
 	},
 	"tokenColors": [
 		{

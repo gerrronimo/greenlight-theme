@@ -3,7 +3,9 @@
     background-color: #181818 !important;
     border-radius: 12px;
     height: calc(100% - 75px) !important;
-    margin-right: 12px;
+    width: calc(100% - 12px);
+    margin-right: 6px;
+    margin-bottom: 6px;
 }
 
 .monaco-split-view2 > .monaco-scrollable-element > .split-view-container {

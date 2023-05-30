@@ -13,12 +13,13 @@ const activate = () => {
 	const html = fs.readFileSync(htmlPath, "utf-8");
 	const code = `<!-- GREENLIGHT --><link href="${__dirname + '/green-light.css'}" rel="stylesheet">`;
 
+	vscode.workspace.getConfiguration().update("breadcrumbs.enabled", false);
+	vscode.workspace.getConfiguration().update("workbench.tree.indent", 22);
+
 	if (!html.includes(code)) {
 		fs.writeFileSync(htmlPath, html.replace(/\<\/html\>/g, `${code}\n`) + '</html>', "utf-8");
 		vscode.commands.executeCommand("workbench.action.reloadWindow");
 		vscode.workspace.getConfiguration().update("editor.fontFamily", "Menlo, monospace");
-		vscode.workspace.getConfiguration().update("breadcrumbs.enabled", false);
-		vscode.workspace.getConfiguration().update("workbench.tree.indent", 16);
 	} else {
 		if (!html.includes(`<!-- restarted -->`)) {
 			fs.writeFileSync(htmlPath, html.replace(/\<\/html\>/g, `<!-- restarted -->\n`) + '</html>', "utf-8");
