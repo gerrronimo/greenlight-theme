@@ -51,7 +51,8 @@ div[aria-label="Your Code installation appears to be corrupt. Please reinstall.,
 /* greenlight-icons */
 
 .codicon[class*=codicon-] {
-    font: normal normal normal 16px/1 greenlight-icons !important;
+    font: normal normal normal 14px/1 greenlight-icons !important;
+    text-align: center;
 }
 
 .monaco-sash.horizontal {
