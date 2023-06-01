@@ -43,7 +43,7 @@ div[aria-label="Your Code installation appears to be corrupt. Please reinstall.,
 
 @font-face {
     font-family: 'greenlight-icons';
-    src: url('../greenlight-icons.ttf') format('truetype');
+    src: url('../fonts/icons.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
@@ -51,8 +51,8 @@ div[aria-label="Your Code installation appears to be corrupt. Please reinstall.,
 /* greenlight-icons */
 
 .codicon[class*=codicon-] {
-    font: normal normal normal 14px/1 greenlight-icons !important;
-    text-align: center;
+    font: normal normal normal 16px/1 greenlight-icons !important;
+    cursor: pointer !important;
 }
 
 .monaco-sash.horizontal {
