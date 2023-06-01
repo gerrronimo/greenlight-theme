@@ -10,7 +10,7 @@
   - [ ] new arrow icon
 - <b>Interface</b>
   - [x] new font
-  - [ ] new icons
+  - [ ] new icons [progress: 10%...]
 - <b>Terminal</b>
   - [x] redesigned terminal window
 - <b>Tabs</b>
