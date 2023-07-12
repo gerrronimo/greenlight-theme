@@ -20,3 +20,7 @@
 .monaco-split-view2.vertical > .monaco-scrollable-element > .split-view-container > .split-view-view {
     width: calc(100% - 12px) !important;
 }
+
+.monaco-editor .margin-view-overlays .cgmr {
+    justify-content: center;
+}

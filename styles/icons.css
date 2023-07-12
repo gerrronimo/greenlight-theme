@@ -15,3 +15,7 @@ div[aria-selected=true] .monaco-icon-label[title="Settings"]::before {
 .monaco-icon-label[title="Settings"]::before {
     background-image: url('./../icons/settings/settings.svg') !important;
 }
+
+.codicon-debug-breakpoint::before {
+    font-size: 12px !important;
+}
